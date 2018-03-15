@@ -5,10 +5,9 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class FileReaderMy {
+public class MyFileReader {
 
-	private static final String FILENAME = "C:\\Users\\alessandro.crispini\\git\\ReplyChallenge\\src\\test\\resources\\first_adventure.in";
-	
+ 	
 	public static StringBuilder readFile(String file) throws Exception {
 		BufferedReader br = null;
 		FileReader fr = null;
